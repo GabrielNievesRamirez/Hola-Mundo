@@ -1,13 +1,15 @@
 @startuml Pow
 
-class Pow
+class Pow 
 class Juego
 class JuegoPelota
 class Pelota
 
-Pow o--Juego 
-Juego <|--JuegoPelota 
+
+Pow --|> Juego
+Juego --|> JuegoPelota 
 Pelota *-- JuegoPelota
+Aire o-- Pelota
 
 
 @enduml
