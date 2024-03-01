@@ -1,8 +1,28 @@
-class Mascota
-{
+
+#pragma once
+#include <Alimento.hpp> 
+
+class Mascota{
     private:
-        int
+        int vida;
     public:
-        Mascota(/*args*/) {}
-        Mascota () {}
-}
+        Mascota(){
+            this->Vida =0;
+        }
+        Mascota(){}
+
+        void Comer(Alimento alimento){
+           this->vida += 
+           alimento.ExtraerEnergia();
+        } 
+            alimento.ExtraerEnergia();
+
+        }
+        void Jugar(){
+            this->vida -= 2;
+     }
+     int LeerVida(){
+        return this->vida;
+     }
+ };
+ 
