@@ -9,15 +9,12 @@ class Mascota{
         Mascota(){
             this->Vida =0;
         }
-        Mascota(){}
 
         void Comer(Alimento alimento){
            this->vida += 
            alimento.ExtraerEnergia();
         } 
-            alimento.ExtraerEnergia();
 
-        }
         void Jugar(){
             this->vida -= 2;
      }

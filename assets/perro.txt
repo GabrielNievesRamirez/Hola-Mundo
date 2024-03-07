@@ -1,0 +1,8 @@
+esta es mi primera linea de coca
+   |    \
+    \   /  ^ |
+   / \_/   0  \
+  /            \
+ /    ____      0
+/      /  \___ _/
+
